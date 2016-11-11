@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.prachi.assignment5.MainActivity"
+    android:background="@android:color/holo_red_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/data"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:paddingTop="2px"
+        android:layout_marginTop="10px"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="Download data"
+        android:id="@+id/button"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:onClick="downloaddata"
+        android:textColor="#fff"
+        android:background="#344"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_width="170dp"
+        tools:fontFamily="casual"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp" />
+</RelativeLayout>
